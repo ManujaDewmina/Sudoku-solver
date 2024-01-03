@@ -10,3 +10,5 @@ use CMD
 ## Test
 
 After run inputs run `python check_output.py` in CMD
+
+Github: https://github.com/ManujaDewmina/SudokuSolver
