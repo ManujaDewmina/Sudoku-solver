@@ -12,22 +12,17 @@ One such algorithm is Donald Knuth's Algorithm X, which is based on the concept 
 
 ## Example
 
-| Input Puzzle         | Solved Puzzle          |
-| ---------------------- | ---------------------- |
-| ![Input](https://github.com/ManujaDewmina/Sudoku-solver/assets/92631934/61bba46a-06d7-4ed1-9f66-c4f17ababeda) | ![Solved](https://github.com/ManujaDewmina/Sudoku-solver/assets/92631934/5db7e7dc-e87e-4d81-a606-b6031f08816c)
-|
+| Input Puzzle         | Solved Puzzle          | Time                   |
+| ---------------------- | ---------------------- | ---------------------- |
+| ![Input](https://github.com/ManujaDewmina/Sudoku-solver/assets/92631934/61bba46a-06d7-4ed1-9f66-c4f17ababeda) | ![Solved](https://github.com/ManujaDewmina/Sudoku-solver/assets/92631934/5db7e7dc-e87e-4d81-a606-b6031f08816c) | 0.004 seconds     |
 ## How to run
 
 1. Clone the Github repository : https://github.com/ManujaDewmina/Sudoku-solver
 
-2. Compile three source files using cmd
+2. Compile three source files using cmd : `g++ sudoku_solver_main.cpp sudoku_solver_16.cpp sudoku_solver_9.cpp -o dancingLinks`
 
-  `g++ sudoku_solver_main.cpp sudoku_solver_16.cpp sudoku_solver_9.cpp -o dancingLinks`
-
-3. Run the executable
-
-  `./dancingLinks 'Sample Inputs/input1.txt'`
+3. Run the executable : `./dancingLinks 'Sample Inputs/input1.txt'`
 
 ## Test examples
 
-After run exaple inputs run `python check_output.py` 
+After run exaple inputs check them using : `python check_output.py` 
